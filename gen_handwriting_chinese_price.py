@@ -297,9 +297,9 @@ def generate_capital_number_image(char_map: Dict[str, List[str]],
 
 def main():
     parser = argparse.ArgumentParser(description="合成中文大寫金額 OCR 訓練資料生成器")
-    parser.add_argument("--char_dir",default="/home/commeet/Documents/PaddleOCR_Commeet/train_data/rec/handwritting_data_all/cleaned_data" , help="手寫單字圖片資料夾路徑")
-    parser.add_argument("--bg_image",default="/home/commeet/Documents/invoice_train_data.jpg"  , help="發票背景圖片路徑 (.jpg/.png)")
-    parser.add_argument("--output_dir", default="synthetic_chinese_price_dataset_test" , help="輸出資料夾路徑 (預設: output_dataset)")
+    parser.add_argument("--char_dir" , required=True, help="手寫單字圖片資料夾路徑")
+    parser.add_argument("--bg_image" , required=True, help="發票背景圖片路徑 (.jpg/.png)")
+    parser.add_argument("--output_dir", required=True, help="輸出資料夾路徑")
     parser.add_argument("--count", type=int, default=100, help="要生成的圖片數量")
     args = parser.parse_args()
     args = parser.parse_args()
