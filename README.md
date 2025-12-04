@@ -1,5 +1,7 @@
+要先上https://github.com/AI-FREE-Team/Traditional-Chinese-Handwriting-Dataset 將完整資料集下載下來，得到cleaned_data
+
 ```bash
-python gen_handwriting_chinese_price.py --char_dir "" --bg_image "invoice_train_data.jpg" --output_dir "" --count 100
+python gen_handwriting_chinese_price.py --char_dir "handwritting_data_all/cleaned_data" --bg_image "invoice_train_data.jpg" --output_dir "" --count 100
 ```
 <img width="772" height="79" alt="image" src="https://github.com/user-attachments/assets/97df345f-2a5e-4c01-8160-cd032ca93d70" />
 <img width="770" height="84" alt="image" src="https://github.com/user-attachments/assets/73c02c21-84da-4c45-ac5e-7ed807983e11" />
