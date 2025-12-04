@@ -8,11 +8,20 @@ python gen_handwriting_chinese_price.py --char_dir "handwritting_data_all/cleane
 <img width="769" height="78" alt="image" src="https://github.com/user-attachments/assets/44e225ef-236a-417c-9dcd-d08ed9dda936" />
 
 ```bash
-python gen_casia_company.py --casia_dir "" --bg_image "invoice_train_data.jpg" --company_list ""  --output_dir ""
+python gen_casia_company.py --casia_dir "" --bg_image "invoice_train_data.jpg" --company_list "all_company_name_for_invoice_synthetic.txt"  --output_dir ""
 ```
 <img width="1662" height="139" alt="image" src="https://github.com/user-attachments/assets/a7820561-6374-4471-88ec-cc240ecdb030" />
 <img width="1695" height="133" alt="image" src="https://github.com/user-attachments/assets/d8251535-17f7-4d22-b591-645b00d95d04" />
 <img width="1739" height="137" alt="image" src="https://github.com/user-attachments/assets/8b61ca29-b1bf-467b-8dec-407711a2ac10" />
+
+```bash
+python gen_handwriting_company.py --char_data_dir "handwritting_data_all/cleaned_data" --bg_image "invoice_train_data.jpg" --company_list "all_company_name_for_invoice_synthetic.txt" --output_dir ""
+```
+<img width="1562" height="140" alt="image" src="https://github.com/user-attachments/assets/6def4698-fb04-40ca-aff1-17f832cfdade" />
+<img width="1726" height="174" alt="image" src="https://github.com/user-attachments/assets/f46bbeed-ee41-4e7a-8263-1a64d3126237" />
+<img width="1765" height="119" alt="image" src="https://github.com/user-attachments/assets/51f043c4-e203-4682-9c59-ffd000860358" />
+
+
 
 
 
