@@ -22,6 +22,10 @@ python gen_handwriting_company.py --char_data_dir "handwritting_data_all/cleaned
 <img width="1765" height="119" alt="image" src="https://github.com/user-attachments/assets/51f043c4-e203-4682-9c59-ffd000860358" />
 
 
+<img width="1516" height="120" alt="image" src="https://github.com/user-attachments/assets/d3dfcbe7-2743-4177-8631-71b4985750ca" />
+<img width="1525" height="126" alt="image" src="https://github.com/user-attachments/assets/8f914450-bb70-42a6-8153-61c1ce0d2bfd" />
+<img width="1523" height="107" alt="image" src="https://github.com/user-attachments/assets/523f79e4-d2ea-4619-ac0a-618fa2676197" />
+
 
 
 
