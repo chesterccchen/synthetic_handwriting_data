@@ -209,7 +209,7 @@ def generate_capital_number_image(char_map: Dict[str, List[str]],
         
         if i < start_index:
             # Case 1: 空白欄位 (紀錄 BBox 以便稍後畫線)
-            label_chars.append(" " + unit_char) 
+            label_chars.append(unit_char) 
             line_bboxes.append(bbox)
             
         elif i == start_index:
